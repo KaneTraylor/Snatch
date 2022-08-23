@@ -1,0 +1,141 @@
+/* profile page css */
+
+.heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profileBox {
+    max-width: 680px;
+    margin: 0px auto;
+}
+
+
+.earnBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid rgb(9, 211, 216);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(32, 215, 219, 0.171);
+    overflow: hidden;
+}
+
+.earnTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon img {
+    width: 30px;
+}
+
+.rewardBtn {
+    padding: 2px 5px;
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+
+.styleLetter {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+}
+
+.styleLetter h3 {
+    font-size: 220px;
+    font-weight: 800;
+    transform: rotate(-40deg);
+    color: rgba(10, 213, 216, 0.212);
+    border-radius: 100%;
+}
+
+
+.accountBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 1px 2px 3px 3px #e8e8e8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.accountBox svg {
+    color: rgb(9, 211, 216);
+    width: 35px;
+}
+
+.smallTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.couseContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.singleCourse a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.singleCourse {
+    box-shadow: 1px 2px 3px 3px #e8e8e8;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.singleCourse img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 0;
+    transition: 0.5s;
+}
+
+.singleCourse h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+
+.courseBtn {
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.singleCourse:hover img {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+.singleCourse:hover .courseBtn {
+    background-color: rgb(6, 143, 145);
+}
+
+.imageContainer {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .styleLetter {
+        right: 0px;
+    }
+}

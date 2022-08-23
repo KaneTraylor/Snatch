@@ -1,0 +1,79 @@
+/* azure blue */
+/* #3399fe */
+
+/* mint green */
+/* #1fd4c6 */
+
+/* mint green alt 1 */
+/* #25fceb */
+
+/* convert signup to button from link */
+.overrides_nav-btn {
+  height: 35px;
+  line-height: 0px;
+  padding: 18px;
+  margin: -5px 0 0 25px;
+}
+
+
+/* fix mobile nav dropdown */
+@media (max-width: 767px) {
+  .overrides_navbar-collapse {
+    opacity: 0.9;
+    border-radius: 5px;
+  }
+
+  .overrides_nav-item {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .overrides_nav-btn {
+    margin: 0;
+  }
+
+}
+
+@font-face {
+  font-family: pantonBlackCaps;
+  src: url(../fonts/panton_black_caps.ttf);
+}
+
+.penton-black-caps {
+  font-family: pantonBlackCaps;
+}
+
+.form-page--body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5555;
+  justify-content: space-between;
+}
+
+.form-page--logo {
+  margin: 10px;
+}
+
+.overrides_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .overrides_form-header,
+.overrides_form-signup {
+  margin: 10px;
+} */
+
+.overrides_form-header-signup {
+  margin: 10px;
+  text-align: center;
+  color: #3399fe;
+}
+
+.overrides_form-el {
+  width: 100%;
+}
+	  
+	  

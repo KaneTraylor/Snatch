@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+.customHeading{
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.customBox{
+    max-width: 380px;
+    margin: 0px auto;
+}
+
+.customBox .customImg{
+    width: 200px;
+    height: auto;
+}
+
+.customLinkColor{
+    margin: 0px;
+    text-decoration: underline rgba(51, 153, 254, 0.4);
+    color: rgb(51, 153,	254);
+}
+
+.customLinkColor:hover{
+    text-decoration: underline rgba(75, 175, 275, 0.4);
+    color: rgb(51, 153,	254);
+}
+
+/* ripple button css */ 
+
+[anim="ripple"] {
+	 position: relative;
+	 overflow: hidden;
+}
+[anim="ripple"]:before {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 background: var(--ripple-background, rgb(67, 255, 100));
+	 border-radius: 50%;
+	 pointer-events: none;
+	 top: calc(var(--y) * 1px);
+	 left: calc(var(--x) * 1px);
+	 width: calc(var(--d) * 1px);
+	 height: calc(var(--d) * 1px);
+	 opacity: calc(var(--o, 1) * var(--ripple-opacity, 0.3));
+	 transition: calc(var(--t, 0) * var(--ripple-duration, 600ms)) var(--ripple-easing, linear);
+	 transform: translate(-50%, -50%) scale(var(--s, 1));
+	 transform-origin: center;
+}
+
+ .customBtn {
+	 --ripple-background: white;
+	 --ripple-opacity: 0.3;
+	 --ripple-duration: 600ms;
+     text-decoration: none;
+	 -webkit-tap-highlight-color: rgba(51, 153, 254, 0);
+     -webkit-box-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     justify-content: center;
+     position: relative;
+     box-sizing: border-box;
+     outline: 0 !important;
+     border: 0px;
+     cursor: pointer;
+     user-select: none;
+     appearance: none;
+     text-decoration: none;
+     font-family: Inter, sans-serif;
+     font-weight: 500;
+     font-size: 0.9375rem;
+     line-height: 1.75;
+     min-width: 64px;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+     color: rgba(0, 0, 0, 0.87);
+     background-color: rgb(37, 252, 235);
+     box-shadow: none;
+     border-radius: 12px;
+     text-transform: none;
+     padding: 12px 20px;
+     display: block;
+     width: 247px;
+     margin: 0 auto;
+     text-align: center;
+     transition: all 0.5s;
+}
+
+.customBtn:hover {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(40, 265, 255);
+    text-decoration: none;
+    box-shadow: 1px 4px 10px 0px #dcdcdc;
+}
+

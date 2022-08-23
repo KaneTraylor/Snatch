@@ -1,0 +1,140 @@
+
+.smallTxt{
+    font-size: 14px;
+}
+
+.error{
+    margin: 0;
+}
+
+#signupForm label.error {
+    color: #e74c3c;;
+    margin-left: 10px;
+    width: auto;
+    display: block;
+    text-align: right;
+}
+
+#signupForm input.error {
+    /* color: #e74c3c; */
+    border: 2px solid #e74c3c;
+} 
+
+
+.customForm {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.customForm label{
+   margin: 0;
+   padding: 0;
+}
+
+.customForm .form__input::placeholder{
+    color: #000 !important;
+    background-color: transparent;
+}
+ 
+.customForm .form__input {
+    width: 100%;
+    border: 2px solid #e1e5ee;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 15px;
+    background: none;
+   /* Change border when input focus*/
+}
+
+.form__label {
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    padding: 0 3px;
+    color: rgb(70, 70, 70);
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: #ffffff;
+    font-size: 16px;
+    z-index: -1;
+}
+
+.form__input:hover {
+    border-color:  rgb(9, 211, 216);
+}
+
+.form__input:focus {
+    border-color: rgb(9, 211, 216);
+    background: transparent;
+}
+
+
+
+/* .form__input:focus ~ .form__label, .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label.error {
+    color: #e74c3c !important;
+} */
+
+.form__input:focus ~ .form__label, .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+    top: -10px;
+    font-size: 14px;
+    left: 0.8rem;
+    padding: 0 4px;
+    color: rgb(9, 211, 216);
+    font-weight: 500;
+    z-index: 1;
+}
+
+/* .form__input ~ span.form__label.error {
+    color: #e74c3c;
+} */
+
+.form__input ~ .form__label, .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label.error {
+    color: #6b5755 !important;
+}
+
+/* ************************************************** */
+
+/* ************************************************** */
+
+
+
+
+
+/* 1. When the input is in the focus state reduce the size of the label and move upwards 2. Keep label state when content is in input field */
+
+
+.toggleFix{
+    position: relative;
+}
+
+#firsTtoggle, #secondToggle{
+    background-image: url('../images/open-eye.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute !important;
+    top: 20px !important;
+    right: 10px;
+    width: 23px;
+    height: 23px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+#firsTtoggle.firstHide{
+    background-image: url('../images/close-eye.png');
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+}
+
+#secondToggle.secondHide{
+    background-image: url('../images/close-eye.png');
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+}
