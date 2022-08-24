@@ -106,7 +106,7 @@ p {
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -114,13 +114,15 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 2px solid #0898E7;
+  /*border: 2px solid #0898E7;*/
   padding: 0 25px;
   font-size: 16px;
   height: 55px;
   line-height: 51px;
-  border-radius: 5px;
-  color: #35a0fe;
+  border-radius: 24px;
+  /*color: #35a0fe;*/
+  color: white;
+  text-transform: uppercase;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -128,11 +130,16 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #fff; }
+  /*background-color: #fff;*/ 
+  background-color:rgb(27, 18, 48)
+}
   .main-btn:hover {
-    background-color: rgba(8, 152, 231, 0.7);
-    color: #fff;
+    /*background-color: rgba(8, 152, 231, 0.7);*/
+    background-color: #0877B8;
+    /*color: #fff;*/
+    color: white;
     border-color: transparent; }
+    
   .main-btn.main-btn-2 {
     background-color: transparent;
     color: #525A63;
@@ -918,7 +925,7 @@ p {
     transform: scale(1.4);
     opacity: 0; } }
 .header-image {
-  padding-top: 150px;
+  padding-top: 80px;
   position: relative;
   z-index: 5; }
   .header-image .image {
@@ -995,29 +1002,29 @@ p {
     .single-services .services-content .text {
       margin-top: 30px; }
   .single-services.services-color-1 .services-icon {
-    background-color: #25fceb; }
+    background-color: #7ae5dd; }
     .single-services.services-color-1 .services-icon::before {
-      background-color: rgba(255, 255, 255, 0.2); }
+      background-color: rgba(231, 160, 25, 0.2); }
   .single-services.services-color-1 .services-content .services-title a:hover {
-    color: #25fceb; }
+    color: #17d6c7; }
   .single-services.services-color-2 .services-icon {
-    background-color: #3399fe; }
+    background-color: #083d5f; }
     .single-services.services-color-2 .services-icon::before {
-      background-color: rgba(255, 255, 255, 0.2); }
+      background-color: rgba(229, 79, 79, 0.2); }
   .single-services.services-color-2 .services-content .services-title a:hover {
-    color: #3399fe; }
+    color: #E54F4F; }
   .single-services.services-color-3 .services-icon {
-    background-color: #1fd4c6; }
+    background-color: #8950E4; }
     .single-services.services-color-3 .services-icon::before {
-      background-color: rgba(255, 255, 255, 0.2); }
+      background-color: rgba(137, 80, 228, 0.2); }
   .single-services.services-color-3 .services-content .services-title a:hover {
-    color: #1fd4c6; }
+    color: #8950E4; }
   .single-services.services-color-4 .services-icon {
-    background-color: #3399fe; }
+    background-color: #0898E7; }
     .single-services.services-color-4 .services-icon::before {
-      background-color: rgba(255, 255, 255, 0.2); }
+      background-color: rgba(8, 152, 231, 0.2); }
   .single-services.services-color-4 .services-content .services-title a:hover {
-    color: #3399fe; }
+    color: #0898E7; }
   .single-services:hover {
     -webkit-box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16);
     -moz-box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16);
@@ -1130,7 +1137,7 @@ p {
       color: #fff;
       line-height: 79px; }
   .single-features .features-content {
-    padding-left: 22px; }
+    padding-left: 25px; }
     @media (max-width: 767px) {
       .single-features .features-content {
         padding-left: 0;
@@ -1146,9 +1153,9 @@ p {
         .single-features .features-content .features-title {
           font-size: 20px; } }
   .single-features.features-color-1 .features-icon {
-    background-color: #3399fe; }
+    background-color: #0898E7; }
   .single-features.features-color-2 .features-icon {
-    background-color: #1fd4c6; }
+    background-color: #8950E4; }
   .single-features.features-color-3 .features-icon {
     background-color: #FDB11B; }
   .single-features:hover {
