@@ -1,5 +1,5 @@
 
------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------
 
     CSS INDEX
     ===================
@@ -96,6 +96,11 @@ p {
   color: #747E88;
   margin: 0px; }
 
+  .mintgreen{
+    color: #1fd4c6;
+    font-size: 44px;
+  }
+
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -131,7 +136,7 @@ p {
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   /*background-color: #fff;*/ 
-  background-color:rgb(27, 18, 48)
+  background-color: #3399fe;
 }
   .main-btn:hover {
     /*background-color: rgba(8, 152, 231, 0.7);*/
@@ -843,14 +848,14 @@ p {
     .header-hero-content {
       padding-top: 120px; } }
   .header-hero-content .header-title {
-    font-size: 42px;
+    font-size: 50px;
     color: #38424D; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .header-hero-content .header-title {
         font-size: 36px; } }
     @media (max-width: 767px) {
       .header-hero-content .header-title {
-        font-size: 22px; } }
+        font-size: 35px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .header-hero-content .header-title {
         font-size: 38px; } }
